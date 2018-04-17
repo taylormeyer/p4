@@ -1,9 +1,9 @@
 # Project 4
-+ By: *your first and last name*
-+ Production URL: <http://p4.yourdomain.com>
++ By: *Taylor Meyer*
++ Production URL: <http://p4.taylormeyer.site>
 
 ## Database
-*The following is example info taken from Foobooks; delete and replace with your own info.*
+*The following is example info taken from p4*
 
 Primary tables:
   + `books`
