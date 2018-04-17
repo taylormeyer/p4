@@ -39,10 +39,12 @@ __Delete__
   + Observe confirmation message
 
 ## Outside resources
-*Your list of outside resources go here*
+* https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
+* https://github.com/barryvdh/laravel-debugbar
+* https://fonts.googleapis.com/css?family=Raleway:300,400,600
 
 ## Code style divergences
-*List any divergences from PSR-1/PSR-2 and course guidelines on code style*
+*No attempted divergences from PSR-1/PSR-2 and course guidelines on code style*
 
 ## Notes for instructor
-*Any notes for me to refer to while grading; if none, omit this section*
+*Working hard to improve from last time! Fingers crossed!*
