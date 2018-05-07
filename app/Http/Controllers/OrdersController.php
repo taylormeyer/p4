@@ -30,9 +30,9 @@ class OrdersController extends Controller
     {
         $user_id = auth()->id();
         $result = Order::select('orders.*', 'orders.id AS formated_order_id')
-                    ->join("user_orders", function($join) use($user_id)  {
-                        $join->on("user_orders.order_id", "=", "orders.id");
-                        $join->on("user_orders.user_id", "=", DB::raw("'".$user_id."'"));
+                    ->join("order_user", function($join) use($user_id)  {
+                        $join->on("order_user.order_id", "=", "orders.id");
+                        $join->on("order_user.user_id", "=", DB::raw("'".$user_id."'"));
                     });
         return datatables()->of($result)->addIndexColumn()->make(true);
     }
