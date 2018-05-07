@@ -1,0 +1,15 @@
+.page-alert span{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+.order-details .row {
+    margin-top: 20px;
+}
+.order-lable {
+    font-weight: 600;
+}
+.help-block {
+    color: red;
+}
