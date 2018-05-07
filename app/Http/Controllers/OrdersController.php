@@ -97,7 +97,7 @@ class OrdersController extends Controller
     public function show($id)
     {
         $order = Order::select("*", 'id AS formated_order_id')->find($id);
-        if(count($order)) {
+        if($order) {
             if ( $order->orderUser->user_id == auth()->id() ) {
                 $orderItems  = $order->orderItems()->with("menuItem")->get();
 
