@@ -50,7 +50,7 @@
 @push('scripts')
 <script src="{{ asset('plugins/jquery-datetimepicker/jquery.datetimepicker.full.min.js') }}"></script>
 
-<script type="text/javascript">
+<script>
     $(document).ready(function () {
         $('#order_time').datetimepicker({
         });
