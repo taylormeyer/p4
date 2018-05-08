@@ -15,7 +15,7 @@ Pivot table(s):
 + `item_order`
 
 ## CRUD
-*Describe what action I need take in order to see an example of all 4 CRUD operations in your app.*
+*Describe what action I need take in order to see an example of all 4 CRUD operations in your app (post log-in).*
 
 __Create__
 + Visit <http://p4.taylormeyer.site/orders/create>
