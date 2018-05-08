@@ -9,10 +9,10 @@ Primary tables:
 + `users`
 + `orders`
 + `menu_items`
-+ `orders_items`
   
 Pivot table(s):
 + `order_user`
++ `item_order`
 
 ## CRUD
 *Describe what action I need take in order to see an example of all 4 CRUD operations in your app.*
