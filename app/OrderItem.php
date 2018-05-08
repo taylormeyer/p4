@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class OrderItem extends Model
 {
+    protected $table = 'item_order';
     protected $guarded = ['id'];
 
     public function menuItem()
